@@ -78,6 +78,8 @@ git remote add origin git@gitlab.com:x55aah/app.git
 # Эта команда поместит ветку локального репозитория с именем <local_branch_name>
 # в удаленный репозиторий <remote_name>.
 git push -u origin master
+git push origin master
+git push
 
 # Если проект уже настроен в центральном репозитории, наиболее распространенным
 # способом создать его локальный клон является команда clone.
